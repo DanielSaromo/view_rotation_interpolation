@@ -5,7 +5,18 @@ import pinocchio as pin
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle
-# from scipy.spatial.transform import Rotation as R
+
+def interp_aa(r0, ri, r1, t):
+    # TODO: implement (or import) your function
+    raise NotImplementedError("interp_aa not implemented")
+
+def nlerp(r0, ri, r1, t):
+    # TODO: implement (or import) your function
+    raise NotImplementedError("nlerp not implemented")
+
+def slerp(r0, ri, r1, t):
+    # TODO: implement (or import) your function
+    raise NotImplementedError("slerp not implemented")
 
 def interpolate_color(t, start_color, end_color):
     return list((1 - t) * start_color + t * end_color)

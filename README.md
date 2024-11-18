@@ -1,8 +1,8 @@
 ## Installation
 ```
-conda create -n rotexplore python=3.12
-conda activate rotexplore
-pip install meshcat scipy pinocchio
+conda create -n viewrot python=3.12 pinocchio matplotlib
+conda activate viewrot
+pip install meshcat
 ```
 ## Usage
 This repo is created to visually inspect rotation interpolation functions.
