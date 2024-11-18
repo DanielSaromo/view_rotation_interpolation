@@ -54,8 +54,8 @@ def compute_angular_velocity(rot_list, delta_t):
 def vis_rotations():
     function_dict = {
         'linear_angle_axis': interp_aa,
-        'linear_quaternion': nlerp,
-        'great_arc_quaternion': slerp,
+        'nlerp': nlerp,
+        'slerp': slerp,
     }
     # Set up the vis parameters
     num_frames = 20
