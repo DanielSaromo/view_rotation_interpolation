@@ -4,6 +4,10 @@ conda create -n viewrot python=3.12 pinocchio matplotlib
 conda activate viewrot
 pip install meshcat
 ```
+If you have never used conda before, you might need to add conda-forge channel:
+```
+conda config --add channels conda-forge
+```
 ## Usage
 This repo is created to visually inspect rotation interpolation functions.
 
